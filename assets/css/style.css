@@ -252,3 +252,26 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+/* laptops / desktops > 1200px */
+@media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    #benefits-mental {
+        order: 2;
+        align-self: flex-start;
+    }
+
+    #benefit-image {
+        order: 1;
+    }
+
+    #benefits-physical {
+        order: 0;
+        align-self: flex-start;
+    }
+}
