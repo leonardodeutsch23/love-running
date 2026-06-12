@@ -218,3 +218,11 @@ nav {
 #benefits p {
     padding: 0 20px;
 }
+
+#circle-cover-bg {
+    background: url("../images/benefits-image.webp") no-repeat center center/cover;
+    width: 90vw;
+    height: 90vw;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
