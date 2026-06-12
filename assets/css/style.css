@@ -142,7 +142,7 @@ nav {
 }
 
 /*meet up times*/
-#times>div {
+#times {
     background-image: url("../images/dublin-city.webp") no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
