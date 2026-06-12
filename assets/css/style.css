@@ -196,7 +196,7 @@ nav {
         width: 75%;
     }
 
-    #benefit-mental>div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -212,7 +212,7 @@ nav {
 /*reasons section styles*/
 #reasons {
     width: 90%;
-    margin: 20 auto;
+    margin: 20px auto;
 }
 
 #reasons h2 {
@@ -221,7 +221,7 @@ nav {
     margin-bottom: 20px;
 }
 
-#benefits-physic>div,
+#benefits-physical>div,
 #benefits-mental>div {
     margin-bottom: 20px;
     line-height: 20px;
@@ -250,5 +250,5 @@ nav {
 #benefits-image {
     display: flex;
     justify-content: center;
-    allign-items: center;
+    align-items: center;
 }
