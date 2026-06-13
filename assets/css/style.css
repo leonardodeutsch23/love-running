@@ -304,6 +304,28 @@ nav {
     #photos {
         column-count: 3;
     }
+
+    /* Sing up page styles */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
 }
 
 /* laptops  992px and higher) */
