@@ -183,6 +183,14 @@ nav {
     /*Override h3 color set in the general styles*/
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -242,6 +250,11 @@ nav {
         text-align: end;
         align-self: flex-end;
     }
+
+    /*Gallery*/
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* laptops  992px and higher) */
@@ -249,51 +262,58 @@ nav {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+
+    /*reasons section styles*/
+    #reasons {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #reasons h2 {
+        text-align: center;
+        font-size: 280%;
+        margin-bottom: 20px;
+    }
+
+    #benefits-physical>div,
+    #benefits-mental>div {
+        margin-bottom: 20px;
+        line-height: 20px;
+
+    }
+
+    #benefits hr {
+        border-top: 1px solid #3a3a3a;
+        margin: 5px 0;
+    }
+
+    #benefits p {
+        padding: 0 20px;
+    }
+
+    #circle-cover-bg {
+        background: url("../images/reasons-image.webp") no-repeat top center/cover;
+        width: 90vw;
+        height: 90vw;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    #benefits-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Gallery*/
+    #photos {
+        column-count: 4;
+    }
 }
 
-/*reasons section styles*/
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
-
-#reasons h2 {
-    text-align: center;
-    font-size: 280%;
-    margin-bottom: 20px;
-}
-
-#benefits-physical>div,
-#benefits-mental>div {
-    margin-bottom: 20px;
-    line-height: 20px;
-
-}
-
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-#benefits p {
-    padding: 0 20px;
-}
-
-#circle-cover-bg {
-    background: url("../images/reasons-image.webp") no-repeat top center/cover;
-    width: 90vw;
-    height: 90vw;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#benefits-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* laptops / desktops > 1200px */
 @media screen and (min-width: 1200px) {
