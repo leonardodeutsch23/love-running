@@ -63,6 +63,22 @@ header a {
     color: inherit;
 }
 
+#benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+}
 
 /* Main content */
 main {
@@ -363,27 +379,12 @@ nav {
         padding: 0 20px;
     }
 
-    #circle-cover-bg {
-        background: url("../images/reasons-image.webp") no-repeat top center/cover;
-        width: 90vw;
-        height: 90vw;
-        border-radius: 50%;
-        margin-bottom: 20px;
-        max-width: 300px;
-        max-height: 300px;
-    }
-
-    #benefits-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     /*Gallery*/
     #photos {
         column-count: 4;
     }
 }
+
 
 
 /* laptops / desktops > 1200px */
